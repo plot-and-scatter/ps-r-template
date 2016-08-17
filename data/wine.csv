@@ -1,0 +1,13 @@
+producer,name,varietal,color,country,region,year,price
+"Mission Hill","Five Vineyards","Cabernet Sauvignon / Merlot",red,Canada,Okanagan,2014,$13.99
+"La Crema","Sonoma Coast","Pinot Noir",red,"United States",Sonoma,2013,$27.99
+"Red Rooster","Gewürtztraminer","Gewürtztraminer",white,Canada,Okanagan,2014,$12.99
+"Blasted Church","Hatfield's Fuse","White blend",white,Canada,Okanagan,2014,$17.99
+"Errazuriz","Max Reserva","Cabernet Sauvignon",red,Chile,Aconcagua,2014,$15.99
+"Monasterio de las Viñas","Reserva","Red blend",red,Spain,Cariñena,2006,$13.99
+"Emiliana","Adobe Reserva",Chardonnay,white,Chile,Casablanca,2012,$13.49
+"Kono","Sauvignon Blanc","Sauvignon Blanc",white,"New Zealand",Marlborough,2012,$14.99
+"Château Mouton Rothschild","Château Mouton Rothschild","Bordeaux blend",red,France,Bordeaux,2011,$999.00
+"Jadot","Couvent des Jacobins",Chardonnay,white,France,Burgundy,2013,$29.49
+"Jadot","Couvent des Jacobins","Pinot Noir",red,France,Burgundy,2012,$29.49
+"Bouchard Père et Fils","Gevrey-Chambertin","Pinot Noir",red,France,Burgundy,2009,$59.99
