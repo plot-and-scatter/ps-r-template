@@ -7,13 +7,14 @@ median(data$price)
 mode(data$price)
 
 # What is the mean price for French wines?
-mean(data[country=="France"]$price)
+mean(data[data$country=="France",]$price)
 
 # Sort the wines in descending order by price and save to output file
-write.table(data[order(-price)], file=OUTPUT.FILE.SUMMARY, sep=OUTPUT.FILE.SEPARATOR, row.names=FALSE)
+write.table(data[order(-data$price),], file=OUTPUT.FILE.SUMMARY, sep=OUTPUT.FILE.SEPARATOR, row.names=FALSE)
 
 # Build a ggplot histogram of prices of wines from the Americas and save to output file
-ggplot(data[country %in% c("Canada", "Chile", "United States")], aes(x=price, width=0.5)) +
+data %>% filter(country %in% c("Canada", "Chile", "United States")) %>%
+ggplot(aes(x=price, width=0.5)) +
   geom_histogram(binwidth=2, fill="#f5bd47", alpha=1.00) +
   theme_classic() +
   scale_y_continuous(breaks=c(0,1,2,3)) +
